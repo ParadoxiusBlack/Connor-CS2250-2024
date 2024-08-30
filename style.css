@@ -1,0 +1,140 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #e4eece;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #000000;
+}
+
+.parallax {
+  background-image: url('OcunanandMartin.png');
+  height: 25vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url('OcunanandMartin.png');
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right-aligned-image {
+  float: right;
+  display: block;
+  margin: 0, 0, 20px, 20px;
+  border: 20px solid lightblue;
+  border-radius: 10px;
+}
+
+.center-aligned-image {
+  display: block;
+  margin: 0px auto 40px auto;
+  border: 20px solid lightblue;
+  border-radius: 10px;
+}
+
+.content1 {
+  height: auto;
+  background-color: lightgray;
+  text-align: center;
+  padding: 50px;
+}
+
+.content1 h1 {
+  background-color: #e6dcad;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.content2 {
+  height: auto;
+  background-color: #decaca;
+  text-align: center;
+  padding: 50px;
+}
+
+.content3 {
+  height: auto;
+  background-color: #dbbdda;
+  text-align: center;
+  padding: 50px;
+}
+
+.content4 {
+  height: auto;
+  background-color: #c8bddb;
+  text-align: center;
+  padding: 50px;
+}
+
+.content5 {
+  height: auto;
+  background-color: #bdc5db;
+  text-align: center;
+  padding: 50px;
+}
+
+.content6 {
+  height: auto;
+  background-color: #bddbd6;
+  text-align: center;
+  padding: 50px;
+}
+
+.left-aligned-text {
+  text-align: left;
+  padding: 25px;
+}
+
+.text-box {
+  background-color: #e2e6ad;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,td {
+  border: 1px solid black;
+  padding: 8px;
+  width: 16.66%;
+  vertical-align: top;
+  text-align: left;
+}
+
+th {
+  background-color: gray;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  background-color: #e6dcad;
+  padding: 20px;
+  border-radius: 10px;
+}
