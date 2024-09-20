@@ -205,16 +205,16 @@ th,td {
   width: 16.66%;
   vertical-align: top;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #aaa;
 }
 
 tr:nth-child(2n) td {
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #888; 
 }
 
 th {
   background-color: gray;
-  color: lightcoral;
+  color: rgb(221, 101, 101);
 }
 
 .center {
