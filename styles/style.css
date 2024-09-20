@@ -214,6 +214,11 @@ tr:nth-child(2n) td {
 th {
   background-color: gray;
   color: rgb(221, 101, 101);
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; 
 }
 
 .center {
