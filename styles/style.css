@@ -19,6 +19,12 @@ p {
   text-indent: 0px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.75em; /* 75% of the font size */
+  margin-bottom: 0.2em; /* Adjust this value between 0.1em and 0.33em as needed */
+}
+
+
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
@@ -138,6 +144,7 @@ h1 {
 table {
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
 }
 
 th,td {
@@ -169,4 +176,40 @@ h2 {
   background-color: #e6dcad;
   padding: 20px;
   border-radius: 10px;
+}
+
+.time {
+  background-color: lightgray;
+  color:#000000;
+
+}
+
+.totalylegit {
+  background-color: beige;
+  color: black;
+}
+
+.cs2450 {
+  background-color: indianred;
+  color: white;
+}
+
+.lunch {
+  background-color: aliceblue;
+  color: black;
+}
+
+.cs305g {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.cs2370 {
+  background-color: blueviolet;
+  color: white;
+}
+
+.dnd {
+  background-color: lightblue;
+  color: black;
 }
