@@ -217,6 +217,13 @@ tr:nth-child(2n) td {
   border-bottom: 1px solid #888; 
 }
 
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
 th {
   background-color: gray;
   color: rgb(221, 101, 101);
