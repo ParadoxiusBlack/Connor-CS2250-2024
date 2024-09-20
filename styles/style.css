@@ -15,6 +15,27 @@ p {
   margin-bottom: 0.75em;
 }
 
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+.title h1 {
+  margin: 0;
+}
+
 .parallax {
   background-image: url('OcunanandMartin.png');
   height: 25vh;
