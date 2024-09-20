@@ -11,8 +11,11 @@ body {
 }
 
 p {
-  text-align: 30px;
   margin-bottom: 0.75em;
+}
+
+p::first-line {
+  text-indent: 30%;
 }
 
 h1, h2, h3 {
