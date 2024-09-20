@@ -10,6 +10,11 @@ body {
   color: #000000;
 }
 
+p {
+  text-align: 20%;
+  margin-bottom: 0.75em;
+}
+
 .parallax {
   background-image: url('OcunanandMartin.png');
   height: 25vh;
