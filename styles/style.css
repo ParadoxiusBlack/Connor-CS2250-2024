@@ -10,6 +10,13 @@ body {
   color: #000000;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+
 p {
   text-indent: 30px;
   margin-bottom: 0.75em;
@@ -51,18 +58,14 @@ h1 {
   background-image: url('OcunanandMartin.png');
   height: 25vh;
   background-attachment: fixed;
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
-.parallax1 {
-  background-image: url('OcunanandMartin.png');
-  height: 50vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.spacer {
+  height: 10vh;
 }
 
 .right-aligned-image {
@@ -82,6 +85,12 @@ h1 {
 }
 
 .content1 {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: auto;
   background-color: lightgray;
   text-align: center;
@@ -89,6 +98,12 @@ h1 {
 }
 
 .content1 h1 {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #e6dcad;
   padding: 20px;
   border-radius: 10px;
@@ -96,6 +111,12 @@ h1 {
 }
 
 .content2 {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: auto;
   background-color: #decaca;
   text-align: center;
@@ -103,6 +124,12 @@ h1 {
 }
 
 .content3 {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: auto;
   background-color: #dbbdda;
   text-align: center;
@@ -110,6 +137,12 @@ h1 {
 }
 
 .content4 {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: auto;
   background-color: #c8bddb;
   text-align: center;
@@ -117,6 +150,12 @@ h1 {
 }
 
 .content5 {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: auto;
   background-color: #bdc5db;
   text-align: center;
@@ -124,6 +163,12 @@ h1 {
 }
 
 .content6 {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: auto;
   background-color: #bddbd6;
   text-align: center;
