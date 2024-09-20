@@ -145,18 +145,31 @@ table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  border: 2px solid black; 
+  border-collapse: collapse; 
+  background: linear-gradient(to right, #f0f8ff, #e6e6fa);
+}
+
+.schedule {
+  table-layout: fixed;
+  width: 900px;
 }
 
 th,td {
-  border: 1px solid black;
   padding: 8px;
   width: 16.66%;
   vertical-align: top;
   text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(2n) td {
+  border-bottom: 1px solid #ccc; 
 }
 
 th {
   background-color: gray;
+  color: lightcoral;
 }
 
 .center {
