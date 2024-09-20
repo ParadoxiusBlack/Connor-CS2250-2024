@@ -16,15 +16,16 @@ p {
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
+
 h1 {
   font-size: 50px;
   text-decoration: underline;
 }
 
 .title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   background: linear-gradient(45deg, #ff6b6b, #f06595);
   padding: 20px;
   border-radius: 8px;
