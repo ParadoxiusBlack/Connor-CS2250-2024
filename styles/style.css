@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  background-color: #e4eece;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   color: #000000;
@@ -56,22 +55,27 @@ h1 {
 }
 
 .parallax {
-  background-image: url('OcunanandMartin.png');
+  background: url('OcunanandMartin.png') no-repeat center center;
   height: 25vh;
   background-attachment: fixed;
   background-position: relative;
-  background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(-1) scale(2);
   z-index: -1;
 }
 
 .spacer {
   height: 10vh;
-  background-image: url('OcunanandMartin.png');
+  background: url('OcunanandMartin.png') no-repeat center center;  background-attachment: fixed;
   background-attachment: fixed;
   background-position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(-1) scale(2);
   z-index: -1;
 }
 
@@ -99,9 +103,8 @@ h1 {
   width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: lightgray;
+  background:rgba(211, 211, 211, 0.8);
   text-align: center;
-  
 }
 
 .content1 h1 {
@@ -111,9 +114,7 @@ h1 {
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #e6dcad;
-  padding: 20px;
-  border-radius: 10px;
+  background: rgba(230, 220, 173, 0.8);
   display: inline-block;
 }
 
@@ -125,9 +126,8 @@ h1 {
   width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #decaca;
+  background: rgba(222, 202, 202, 0.8);
   text-align: center;
-  
 }
 
 .content3 {
@@ -138,9 +138,7 @@ h1 {
   width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #dbbdda;
-  text-align: center;
-  
+  background: rgba(219, 189, 218, 0.8);
 }
 
 .content4 {
@@ -151,9 +149,7 @@ h1 {
   width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #c8bddb;
-  text-align: center;
-  
+  background: rgba(200, 189, 219, 0.8);
 }
 
 .content5 {
@@ -161,11 +157,10 @@ h1 {
   z-index: 1;
   padding: 20px;
   margin: 20px auto;
-  width: 80%;
+  width: 70%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #bdc5db;
-  text-align: center;
+  background: rgba(189, 197, 219, 0.8);
 }
 
 .content6 {
@@ -176,8 +171,7 @@ h1 {
   width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #bddbd6;
-  text-align: center;
+  background: rgba(189, 219, 214, 0.8);
 }
 
 .left-aligned-text {
