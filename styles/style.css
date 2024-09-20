@@ -66,6 +66,12 @@ h1 {
 
 .spacer {
   height: 10vh;
+  background-image: url('OcunanandMartin.png');
+  background-attachment: fixed;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 .right-aligned-image {
