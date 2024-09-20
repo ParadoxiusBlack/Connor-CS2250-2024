@@ -197,7 +197,7 @@ table {
   border-spacing: 0;
   border: 2px solid black; 
   border-collapse: collapse; 
-  background: linear-gradient(to right, #f0f8ff, #e6e6fa);
+  background: linear-gradient(to right, #f0f8ff, #c2c2fc);
 }
 
 .schedule {
