@@ -24,13 +24,14 @@ p {
 
 .noIndent {
   text-indent: 0px;
+  text-align: left;
+  padding: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0.75em; /* 75% of the font size */
   margin-bottom: 0.2em; /* Adjust this value between 0.1em and 0.33em as needed */
 }
-
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
@@ -94,13 +95,13 @@ h1 {
   position: relative;
   z-index: 1;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: auto;
   background-color: lightgray;
   text-align: center;
-  padding: 50px;
+  
 }
 
 .content1 h1 {
@@ -120,65 +121,63 @@ h1 {
   position: relative;
   z-index: 1;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: auto;
   background-color: #decaca;
   text-align: center;
-  padding: 50px;
+  
 }
 
 .content3 {
   position: relative;
   z-index: 1;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: auto;
   background-color: #dbbdda;
   text-align: center;
-  padding: 50px;
+  
 }
 
 .content4 {
   position: relative;
   z-index: 1;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: auto;
   background-color: #c8bddb;
   text-align: center;
-  padding: 50px;
+  
 }
 
 .content5 {
   position: relative;
   z-index: 1;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: auto;
   background-color: #bdc5db;
   text-align: center;
-  padding: 50px;
 }
 
 .content6 {
   position: relative;
   z-index: 1;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: auto;
   background-color: #bddbd6;
   text-align: center;
-  padding: 50px;
 }
 
 .left-aligned-text {
